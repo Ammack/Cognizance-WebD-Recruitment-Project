@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:url('bg2.png');
+    background-size: cover;
+}
+.nav{
+    display: block;
+    width: 35%;
+    margin: auto;
+    margin-top: 20px;
+    border-bottom: white solid;
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+
+.navbar li a:hover, .navbar li a.active{
+    color: black;
+    background-color:white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    transition: 0.5s;
+}
+h1{
+    text-align: center;
+    display: block;
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    font-size: 100px;
+    font-family: 'Poiret One', cursive;
+}
+
+.para{
+    display: block;
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Poiret One', cursive;
+}
+.image{
+    width: 28%;
+    margin: auto;
+    margin-top: 5%;
+}
+img{
+    border: solid black 5px;
+    border-radius: 50px;
+}
